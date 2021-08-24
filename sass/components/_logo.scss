@@ -1,0 +1,17 @@
+.logo {
+  font-family: $seconry-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: $color-brend;
+  letter-spacing: 0.03em;
+  display: block;
+
+  .logo--color {
+    color: $color-txt-item;
+  }
+}
+
+.logo__part-logo {
+  color: $color-logo-part;
+}

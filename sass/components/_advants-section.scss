@@ -1,0 +1,39 @@
+/*------advants-list------*/
+
+.advants-list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.advants-list__item {
+  display: block;
+  width: calc((100% - 4 * 30px) / 4);
+  margin-left: 30px;
+}
+
+.advants-list__icon {
+  display: flex;
+  margin-bottom: 30px;
+  height: 120px;
+  width: auto;
+  background-color: $backgr-item;
+  align-items: center;
+  justify-content: center;
+}
+
+.advants-list__item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $color-title;
+  margin-bottom: 10px;
+}
+.advants-list__text {
+  display: block;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $color-text;
+}
